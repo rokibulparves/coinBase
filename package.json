@@ -13,6 +13,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
+  "server": {
+    "hmr": {
+      "protocol": "ws",
+      "port": 3000
+    }
+  },
   "devDependencies": {
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
